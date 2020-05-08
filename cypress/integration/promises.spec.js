@@ -1,0 +1,30 @@
+it('sem testes ainda', () => { })
+
+//simulando algo como pesquisa, busca em banco, API.
+const getSomething = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(13);
+        }, 1000)
+    })
+}
+
+const system = async () => {
+    console.log('init');
+    const some = await getSomething()
+    console.log(`Something is ${some}`)
+    console.log('end');
+}
+
+// //forma antiga :C não usamos mais, como pode ver é algo gigante
+// const system = () => {
+//     console.log('init');
+//     getSomething(some => {
+//         console.log(`Something is ${some}`);
+//         console.log('end');
+//     })
+// }
+
+
+
+system();
