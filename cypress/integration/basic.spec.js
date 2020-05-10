@@ -13,6 +13,10 @@ describe('Cypress basics', () => {
             .should('be.equal', 'Campo de Treinamento')
             .and('contain', 'Campo') //.debug()
 
+        cy.title().then(title => {
+            console.log(title)
+        })
+
     })
 
     it('Should find and interact with an element', () => {
