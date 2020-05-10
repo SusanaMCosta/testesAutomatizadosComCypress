@@ -10,7 +10,7 @@ describe('Entendendo a espera do cypress', () => {
         cy.reload()
     })
 
-    it('Sync', () => {
+    it('Sincronia', () => {
         cy.get('#buttonDelay')
     })
 })
