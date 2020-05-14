@@ -12,7 +12,12 @@ it('nada agora', function () {})
 //     return a + b
 // }
 
+//git config --global user.email "you@example.com"
+//git config --global user.name "Your Name"
+
 //const soma = (a) => a + a
+
+//testando um comentário
 
 const soma = (a, b) => a + b
 
